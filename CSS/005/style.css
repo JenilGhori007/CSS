@@ -1,0 +1,36 @@
+.box{
+    width: 200px;
+    height: 200px;
+    border: 2px solid green;
+}
+
+.relative{
+    position: relative;
+    background-color: lightblue;
+    top: 100px;
+    left: 100px;
+}
+
+
+.absolute{
+    position: absolute;
+    background-color: lightsalmon;
+    top: 100px;
+    left: 100px;
+}
+
+.fixed{
+    position: fixed;
+    background-color: lightcoral;
+    top: 100px;
+    left: 500px;
+}
+
+
+.sticky{
+
+    position: sticky;
+    background-color: lightslategray;
+    top: 100px;
+    bottom: 10px;
+}
